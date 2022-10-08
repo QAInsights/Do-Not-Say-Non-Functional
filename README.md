@@ -14,3 +14,7 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 ## Alternative Terms (in alphabetical)
 
 
+| Term  | Definition | Author |
+| ------------- | ------------- | ------------- | 
+|               |               |               |
+|               |               |               |
