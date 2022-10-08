@@ -11,6 +11,6 @@ QA professionals, especially those working in `Performance Engineering and Testi
 
 AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional Requirements`. Industry leaders James Bach, Cem Kaner, Alexander Podelko and more agrees that the term misrepresents the testing objective.
 
-So, I am proposing to change the term to `Extra-Funcational`. 
+## Alternative Terms (in alphabetical)
 
-Credits to [James Bach](https://en.wikipedia.org/wiki/James_Marcus_Bach). 
+
