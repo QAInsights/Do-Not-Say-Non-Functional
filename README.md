@@ -16,5 +16,7 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 
 | Term          | Definition    | Author        |
 | ------------- | ------------- | ------------- | 
-| Extra Functional |            | James Bach    |
+| Extra Functional, Quasi-Functional |            | James Bach    |
 | Functional Testing Extended |               | NaveenKumar Namachivayam |
+| Para-Functional | | Cem Kaner |
+
