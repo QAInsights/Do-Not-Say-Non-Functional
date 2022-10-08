@@ -8,3 +8,9 @@ Merriam Dictionary's definition of `non-functional`:
 QA professionals, especially those working in `Performance Engineering and Testing` negates the term `Non-Functional`. The rationale behind is: the term `performance` is `functional` for any application. Similarly for [`Accessbility Testing`](https://web.dev/accessible/), [`Security Testing`](https://owasp.org/www-project-top-ten/), and more.
 
 ![image](https://user-images.githubusercontent.com/2826376/193952008-7fd668db-fc00-4d68-92ef-76d1b6848306.png)
+
+AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional Requirements`. Industry leaders James Bach, Cem Kaner, Alexander Podelko and more agrees that the term misrepresents the testing objective.
+
+So, I am proposing to change the term to `Extra-Funcational`. 
+
+Credits to [James Bach](https://en.wikipedia.org/wiki/James_Marcus_Bach). 
