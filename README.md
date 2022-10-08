@@ -11,7 +11,7 @@ QA professionals, especially those working in `Performance Engineering and Testi
 
 AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional Requirements`. Industry leaders James Bach, Cem Kaner, Alexander Podelko and more agrees that the term misrepresents the testing objective.
 
-## Alternative Terms (in alphabetical by Term)
+## Alternative Terms (in alphabetical order by Term)
 
 
 | Term          | Definition    | Author        |
