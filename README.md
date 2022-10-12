@@ -19,4 +19,4 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 | Extra Functional, Quasi-Functional |            | James Bach    |
 | Functional Testing Extended |               | NaveenKumar Namachivayam |
 | Para-Functional | | Cem Kaner |
-
+| Specialized Functional, Functional Performance, Advance Functional | | Sameer Kanguri |
