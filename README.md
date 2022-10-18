@@ -34,7 +34,7 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 An `Individualist` test would evaluate the effect of a single user on the software, e.g.:
 
 - Unit testing
-- Api testing
+- API testing
 - UI testing
 - Security testing
 - Accessibility testing
