@@ -2,14 +2,11 @@
 
 Merriam Dictionary's definition of `non-functional`: 
 > having no function : serving or performing no useful purpose
+
 ## Background
-"Functional" is relative to the goal you're trying to achieve.
-If your software product is a standalone desktop application, then performance testing might not be "functional" for that purpose, but for a SaaS application running in the cloud serving thousands if not millions of clients simultaneously, then performance becomes critical, not only functional.
-In the same sense that selenium tests are not functional for a cli tool or a web-server etc.
+"Functional" is relative to the goal you're trying to achieve. If your software product is a standalone desktop application, then performance testing might not be "functional" for that purpose, but for a SaaS application running in the cloud serving thousands if not millions of clients simultaneously, then performance becomes critical, not only functional. In the same sense that Selenium tests are not functional for a CLI tool or a web-server etc.
 
-Therefore, the categorization of for example selenium tests being "functional" while performance testing is "non-functional" is somewhat arbitrary and creates a lot of confusion.
-
-
+Therefore, the categorization of Selenium tests being "functional" while performance testing is "non-functional" is somewhat arbitrary and creates a lot of confusion.
 
 # Rationale
 
@@ -30,61 +27,65 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 | Specialized Functional, Advance Functional, Functional Performance |  | Sameer Kanguri |
 
 
-## Testing categorization
+## Testing Categorization
 
-### Individualist vs collectivist
+### Individualist vs Collectivist
 
-An individualist test would evaluate the effect of a single(ish) user on the software, for example:
+An `Individualist` test would evaluate the effect of a single user on the software, e.g.:
 
 - Unit testing
 - Api testing
 - UI testing
-- Security test (testing the effect of a malicious user)
+- Security testing
 - Accessibility testing
-- single user performance testing (for example, google's lighthouse)
+- Single user performance testing ( e.g. Google's Lighthouse)
 
-A collectivist test would evaluate the effect of a large number of dispersed users on the software, and this is almost exclusive to the various types of performance tests:
+A `collectivist` test would evaluate the effect of a large number of dispersed users on the software, and this is almost exclusive to the various types of performance tests:
+
 - Stress testing
 - Load testing
 - Soak testing
-- Volume testing - while it's not explicitly multiple users, it is the effect of many users inserting data to the softwares data lake
-- chaos testing
+- Endurance testing
+- Volume testing
+- Chaos testing
 
-### User requirements vs Operational requirements
+### User Requirements vs Operational Requirements
 
-User requirements are a type of requirements intended to meet user expectations.
-For example, if I try to login with a valid user, the dashboard page should come up with the correct user name.
+`User Requirements` are a type of requirements intended to meet the user expectations e.g. if I try to login with a valid user, the dashboard page should come up with the correct user name.
 
-Example of such testing realms:
+Examples of such testing realms:
+
 - Unit testing
-- Api testing
+- API testing
 - UI testing
 
+`Operation Requirements` are a type of requirements referring to industry standards, with the intention to keep the software viable.
 
-Operation requirements are a type of requirements referring to industry standards, with the intention to keep the software viable.
+Examples:
 
-examples:
-
-- Security test - Searching for a CVEs
-- Accessibility testing - Looking for violations of WCAG
-- single user performance testing (for example, google's lighthouse) - Looking for violations of dev vitals
+- Security testing
+- Accessibility testing
+- Single user performance testing
 - Load testing
+- Endurance testing
 - Soak testing
 - Volume testing
-- chaos testing
+- Chaos testing
 
 ### Assertion based vs Metrics based
 
-Assertions typically validates binary conditions and they provide a quick "go" or "no-go" feedback
-For example:
+Assertions typically validates binary conditions and they provide a quick `go or `no-go` feedback e.g.:
+
 - Unit testing
-- Api testing
+- API testing
 - UI testing
-- Accessibility testing - Looking for violations of WCAG
-- single user performance testing (for example, google's lighthouse) - Looking for violations of dev vitals
+- Accessibility testing
+- Single user performance testing
 
 Metrics are numerical features (response time, CPU usage, memory usage, reset count, etc...) which should be analyzed as a whole after test execution has been completed.
+
 - Load testing
+- Endurance testing
 - Soak testing
 - Volume testing
-- chaos testing
+- Chaos testing
