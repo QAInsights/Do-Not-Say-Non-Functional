@@ -8,7 +8,7 @@ Merriam Dictionary's definition of `non-functional`:
 
 Therefore, the categorization of Selenium tests being "functional" while performance testing is "non-functional" is somewhat arbitrary and creates a lot of confusion.
 
-# Rationale
+## Rationale
 
 QA professionals, especially those working in `Performance Engineering and Testing` negates the term `Non-Functional`. The rationale behind is: the term `performance` is `functional` for any application. Similarly for [`Accessibility Testing`](https://web.dev/accessible/), [`Security Testing`](https://owasp.org/www-project-top-ten/), and more.
 
