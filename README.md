@@ -1,6 +1,6 @@
 # Do Not Say Non-Functional in QA
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Merriam Dictionary's definition of `non-functional`: 
@@ -102,6 +102,7 @@ Metrics are numerical features (response time, CPU usage, memory usage, reset co
   <tbody>
     <tr>
       <td align="center"><a href="https://medium.com/@eldadu1985"><img src="https://avatars.githubusercontent.com/u/55621402?v=4?s=100" width="100px;" alt="Eldad Uzman"/><br /><sub><b>Eldad Uzman</b></sub></a><br /><a href="https://github.com/QAInsights/Do-Not-Say-Non-Functional/commits?author=eldaduzman" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/sambgm"><img src="https://avatars.githubusercontent.com/u/75112035?v=4?s=100" width="100px;" alt="sambgm"/><br /><sub><b>sambgm</b></sub></a><br /><a href="#content-sambgm" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
