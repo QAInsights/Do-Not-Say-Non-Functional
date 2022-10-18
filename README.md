@@ -28,6 +28,7 @@ AFAIK, there is no official term for `Non-Functional Testing` or `Non-Functional
 | Functional Testing Extended |               | NaveenKumar Namachivayam |
 | Para-Functional | | Cem Kaner |
 | Specialized Functional, Advance Functional, Functional Performance |  | Sameer Kanguri |
+| User Experience | | Navneet Krishna |
 
 
 ## Testing Categorization
